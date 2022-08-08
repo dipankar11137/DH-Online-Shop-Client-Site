@@ -1,0 +1,72 @@
+[
+    {
+        "_id": 1,
+        "name": "Pakiza",
+        "img": "https://i.ibb.co/QDykD1Z/6166d-ADg9z-L-UY550.jpg",
+        "model": "3A2B",
+        "price": "550",
+        "availableProducts": "100",
+        "description": "Its vary beautiful",
+        "rating": 4
+    },
+    {
+        "_id": 2,
+        "name": "Sahi",
+        "img": "https://i.ibb.co/0YYL2NY/288908.jpg",
+        "model": "4A2B",
+        "price": "550",
+        "availableProducts": "300",
+        "description": "Its vary beautiful",
+        "rating": 4
+    },
+    {
+        "_id": 3,
+        "name": "Dipu",
+        "img": "https://i.ibb.co/QDykD1Z/6166d-ADg9z-L-UY550.jpg",
+        "model": "5A2B",
+        "price": "550",
+        "availableProducts": "150",
+        "description": "Its vary beautiful",
+        "rating": 5
+    },
+    {
+        "_id": 4,
+        "name": "Lal Tip",
+        "img": "https://i.ibb.co/0YYL2NY/288908.jpg",
+        "model": "6A2B",
+        "price": "550",
+        "availableProducts": "700",
+        "description": "Its vary beautiful",
+        "rating": 4
+    },
+    {
+        "_id": 5,
+        "name": "Koptakkho",
+        "img": "https://i.ibb.co/QDykD1Z/6166d-ADg9z-L-UY550.jpg",
+        "model": "3B2B",
+        "price": "550",
+        "availableProducts": "140",
+        "description": "Its vary beautiful",
+        "rating": 4
+    },
+    {
+        "_id": 6,
+        "name": "Pakiza",
+        "img": "https://i.ibb.co/0YYL2NY/288908.jpg",
+        "model": "3A2B",
+        "price": "550",
+        "availableProducts": "100",
+        "description": "Its vary beautiful",
+        "rating": 4
+    },
+    {
+        "_id": 7,
+        "name": "Pakiza",
+        "img": "https://i.ibb.co/QDykD1Z/6166d-ADg9z-L-UY550.jpg",
+        "model": "3A2B",
+        "price": "550",
+        "availableProducts": "100",
+        "description": "Its vary beautiful",
+        "rating": 4
+    }
+]

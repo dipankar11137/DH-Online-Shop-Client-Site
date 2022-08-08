@@ -1,21 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import PrintClothe from './PrintClothe';
 
 const PrintClothes = () => {
+    const [printClothes, setPrintCloths] = useState('');
+
+    useEffect(() => {
+        fetch('products.json')
+            .then(res => res.json())
+            .then(data => setPrintCloths(data))
+    }, [])
+
     return (
-        <div className='mt-4'>
-            <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h2 class="card-title">
-                        Shoes!
-                        <div class="badge badge-secondary">NEW</div>
-                    </h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <div class="badge badge-outline">Fashion</div>
-                        <div class="badge badge-outline">Products</div>
-                    </div>
-                </div>
+        <div>
+            <h1 className='text-5xl mt-2 text-center font-bold'>Print Cloths </h1>
+            <div className='sm:mx-16 lg:mx-36 p-5 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4'>
+                {
+                    printClothes.map(showPrintClothe => <PrintClothe key={showPrintClothe._id} showPrintClothe={showPrintClothe}></PrintClothe>)
+                }
             </div>
         </div>
     );
