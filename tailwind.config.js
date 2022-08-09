@@ -9,10 +9,10 @@ module.exports = {
       {
         mytheme: {
           primary: "#1d4ed8",
-          secondary: "#f6d860",
+          secondary: "#fbbf24",
           accent: "#37cdbe",
           neutral: "#e60b16",
-          buttonBag: "#fb923c",
+          buttonBag: "#f97316",
           d: "#FCED05",
           "base-100": "#ffffff",
 

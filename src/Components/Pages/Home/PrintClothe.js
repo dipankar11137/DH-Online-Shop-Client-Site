@@ -16,8 +16,8 @@ const PrintClothe = ({ showPrintClothe }) => {
                 <h2> <span className='font-bold'>Available Products :font-</span> {availableProducts}</h2>
                 <p>{description}</p>
                 <div class="card-actions justify-between">
-                    <button className='btn'>Details</button>
-                    <button className='btn'>Buy Now</button>
+                    <button className='btn btn-primary shadow-xl'>Details</button>
+                    <button className='btn btn-secondary shadow-xl'>Buy Now</button>
                 </div>
             </div>
         </div>

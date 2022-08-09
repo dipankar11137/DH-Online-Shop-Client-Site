@@ -20,7 +20,7 @@ const Navbar = () => {
                             <li><Link to='/dashboard'>Dashboard</Link></li>
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost normal-case text-xl"><img className='mr-2' src={logo} alt="" />DH</Link>
+                    <Link to='/' className="btn btn-ghost normal-case text-xl lg:ml-16"><img className='mr-2' src={logo} alt="" />DH</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex ">
                     <ul className="menu menu-horizontal p-0">
@@ -30,11 +30,16 @@ const Navbar = () => {
                         <li><Link to='/addAReview'>Add A Review</Link></li>
                         <li><Link to='/myProfile'>My Profile</Link></li>
                         <li><Link to='/dashboard'>Dashboard</Link></li>
+
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-buttonBag">Get started</a>
+                    <ul className="menu menu-horizontal pr-12 me-6">
+                        <li><Link to='/dashboard'>Contact</Link></li>
+                        <li><Link to='/dashboard'>Log In</Link></li>
+                    </ul>
                 </div>
+
             </div>
         </div>
     );
